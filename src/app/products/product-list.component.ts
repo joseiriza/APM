@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { productsHardcoded } from "src/api/products/products-hardcoded";
 
 @Component({
     selector: 'pm-products',
@@ -6,5 +7,6 @@ import { Component } from "@angular/core";
 })
 
 export class ProductListComponent {
-
+    pageTitle: string = 'Product list';
+    products: any[] = productsHardcoded;
 }
