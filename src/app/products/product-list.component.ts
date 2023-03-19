@@ -9,4 +9,6 @@ import { productsHardcoded } from "src/api/products/products-hardcoded";
 export class ProductListComponent {
     pageTitle: string = 'Product list';
     products: any[] = productsHardcoded;
+    imageWidth: number = 50;
+    imageMargin: number = 2;
 }
