@@ -11,4 +11,9 @@ export class ProductListComponent {
     products: any[] = productsHardcoded;
     imageWidth: number = 50;
     imageMargin: number = 2;
+    showImage: boolean = false;
+
+    toggleImage() {
+        this.showImage = !this.showImage;
+    }
 }
